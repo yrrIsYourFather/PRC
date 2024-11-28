@@ -1,5 +1,3 @@
 # Can "ESN-Linear" support DDM?
 
-yrr & zzq 的神经科学结课作业
-
-to be continued......
+![](D:\课程\神经科学导论\大作业\code\Can-ESN-Linear-support-DDM-\fig\overview.jpg)
