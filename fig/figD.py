@@ -15,7 +15,7 @@ from model.PRL import PRL_Net
 # 如果要复现 fig D 的结果，需要先在 dataset.py（代码91行）中对形状序列进行指定形状为：shapes = [5,5,5,5,2,2,5,5,5,7,7]
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-model = torch.load('myNet_1127_145306.pth').to(device)
+model = torch.load('model/models/myNet_1130_142138.pth').to(device)
 
 weight = np.linspace(-0.9, 0.9, 10)
 

@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-model = torch.load('myNet_1127_145306.pth').to(device)
+model = torch.load('model/models/myNet_1130_142138.pth').to(device)
 weight = np.linspace(-0.9, 0.9, 10)
 
 def get_choice(t_dataset,bs=1):

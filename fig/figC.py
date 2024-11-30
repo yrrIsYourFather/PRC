@@ -11,7 +11,7 @@ from model.PRL import PRL_Net
 
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-model = torch.load('myNet_1127_145306.pth').to(device)
+model = torch.load('model/models/myNet_1130_142138.pth').to(device)
 real_weight = np.linspace(-0.9, 0.9, 10)
 
 
