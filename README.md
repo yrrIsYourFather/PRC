@@ -5,7 +5,7 @@
 
 ## data
 
-Our dataset is developed based on https://github.com/tyangLab/Sequence_learning, we appreciate this great work! 
+Our dataset is developed based on [Sequence_learning]https://github.com/tyangLab/Sequence_learning, we appreciate this great work! 
 
 
 
