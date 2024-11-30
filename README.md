@@ -11,6 +11,6 @@ You can use it to generate data sets and specify shape sequence for analysis.
 
 ## Analysis
 
-[./analysis](#analysis)  and [./fig](#fig) are our codes for model analysis. 
+[./analysis](/analysis)  and [./fig](/fig) are our codes for model analysis. 
 
 When running the **figD.py** file, you need to specify the generated shape sequence in the **dataset.py**. Other code can run directly.
