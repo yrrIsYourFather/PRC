@@ -1,6 +1,6 @@
 # PRL: Can Parallel Reservoir Computing with Linear Modules Support DDM?
 
-![overview](/fig/overview.pdf)
+![overview](/fig/overview.png)
 
 This is our final project for the course "Introduction to Neuroscience, 2024 Fall", supervised by Prof. T.Y.. To have a deeper look into our work, we refer to [our report](/PRL.pdf).
 
