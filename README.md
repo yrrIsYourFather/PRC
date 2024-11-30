@@ -1,5 +1,7 @@
 # PRL: Can Parallel Reservoir Computing with Linear Modules Support DDM?
 
+![overview](/fig/overview.pdf)
+
 This is our final project for the course "Introduction to Neuroscience, 2024 Fall", supervised by Prof. T.Y.. To have a deeper look into our work, we refer to [our report](/PRL.pdf).
 
 ## Model
@@ -8,7 +10,7 @@ This is our final project for the course "Introduction to Neuroscience, 2024 Fal
 
 ## Data
 
-Our dataset is developed based on https://github.com/tyangLab/Sequence_learning, we appreciate this great work! 
+Our dataset is developed based on https://github.com/tyangLab/Sequence_learning. We appreciate this great work! 
 
 You can use it to generate datasets and specify shape sequence for analysis.
 
