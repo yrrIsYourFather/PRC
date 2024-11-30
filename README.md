@@ -1,3 +1,1 @@
-# Can "ESN-Linear" support DDM?
-
-![](fig/overview.jpg)
+# PRL: Can Parallel Reservoir Computing with Linear Modules Support DDM?
