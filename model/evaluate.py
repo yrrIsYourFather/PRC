@@ -46,4 +46,4 @@ def evaluate(num_trails=1000):
 
 if __name__ == "__main__":
 
-    evaluate(num_trails=5)#测试
+    evaluate(num_trails=5000)#测试

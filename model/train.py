@@ -75,4 +75,4 @@ def train(num_trails=1000):
 
 if __name__ == "__main__":
 
-    train(num_trails=5)#统一用4000训练
+    train(num_trails=5000)#统一用4000训练
