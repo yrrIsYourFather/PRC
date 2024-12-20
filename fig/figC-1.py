@@ -1,5 +1,7 @@
-import random
+# 与 figC.py相比
+# 所绘制的图像有误差棒
 
+import random
 import pandas as pd
 import torch
 import torch.nn.functional as F
