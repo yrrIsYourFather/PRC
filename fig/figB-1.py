@@ -1,3 +1,6 @@
+# 与 figB.py相比
+# 所绘制的图像有误差棒
+
 import pandas as pd
 import torch
 from scipy.optimize import curve_fit
