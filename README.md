@@ -1,4 +1,4 @@
-# PRL: Can Parallel Reservoir Computing with Linear Modules Support DDM?
+# PRC: Can Parallel Reservoir Computing Support DDM?
 
 ![overview](/fig/overview-1.jpg)
 
@@ -8,7 +8,7 @@ Before running our code, use `conda env create -f environment.yml` to create you
 
 ## Model
 
-[./model](/model) is our code for PRL model, which contains the model itself, training and evaluation subparts.
+[./model](/model) is our code for PRC model, which contains the model itself, training and evaluation subparts.
 
 ## Data
 
