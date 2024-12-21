@@ -2,7 +2,7 @@
 
 ![overview](/fig/overview-1.jpg)
 
-This is our final project for the course "Introduction to Neuroscience" (2024 Fall), supervised by Prof. T.Yang. For more details, we refer to [our report](/PRL.pdf).
+This is our final project for the course "Introduction to Neuroscience" (2024 Fall), supervised by Prof. T.Yang. For more details, we refer to [our report](/PRC.pdf).
 
 Before running our code, use `conda env create -f environment.yml` to create your conda environment.
 
