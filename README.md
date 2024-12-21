@@ -1,6 +1,6 @@
 # PRC: Can Parallel Reservoir Computing Support DDM?
 
-![overview](/fig/overview-1.jpg)
+![overview](/fig/overview.jpg)
 
 This is our final project for the course "Introduction to Neuroscience" (2024 Fall), supervised by Prof. T.Yang. For more details, we refer to [our report](/PRC.pdf).
 
