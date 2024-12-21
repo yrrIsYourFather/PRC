@@ -3,7 +3,7 @@ import torch
 from scipy.optimize import curve_fit
 import torch.nn.functional as F
 from data.dataset import SeqDataSet
-from model.PRL import PRL_Net
+from model.PRC import PRL_Net
 import einops
 from tqdm import trange
 import openpyxl

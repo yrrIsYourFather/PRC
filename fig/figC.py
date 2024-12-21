@@ -7,7 +7,7 @@ from tqdm import trange
 import numpy as np
 from sklearn.linear_model import Ridge
 from sklearn.model_selection import cross_val_score, KFold
-from model.PRL import PRL_Net
+from model.PRC import PRL_Net
 
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

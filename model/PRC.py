@@ -88,17 +88,20 @@ class PRL_Net(nn.Module):
         """
 
         # Generate sparse, uniformly distributed weights.
+        # 随机生成n_internal_units×n_internal_units的稀疏矩阵，并转换为常规的密集矩阵
+        # 其非零元素的密度由connectivity参数控制
         internal_weights = sparse.rand(n_internal_units,
                                        n_internal_units,
                                        density=connectivity).todense()
 
         # Ensure that the nonzero values are uniformly distributed in [-0.5, 0.5]
+        # 找到矩阵所有非零值-0.5，使其均匀分布在 [-0.5,0.5] 区间
         internal_weights[np.where(internal_weights > 0)] -= 0.5
         
         # Adjust the spectral radius.
-        E, _ = np.linalg.eig(internal_weights)
-        e_max = np.max(np.abs(E))
-        internal_weights /= np.abs(e_max)/spectral_radius       
+        E, _ = np.linalg.eig(internal_weights) # 计算矩阵特征值
+        e_max = np.max(np.abs(E)) # 特征值绝对值最大的一个
+        internal_weights /= np.abs(e_max)/spectral_radius # 调整矩阵谱半径
 
         return internal_weights
 

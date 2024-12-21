@@ -8,7 +8,7 @@ from tqdm import trange
 import openpyxl
 import numpy as np
 import matplotlib.pyplot as plt
-from model.PRL import PRL_Net
+from model.PRC import PRL_Net
 
 
 # *********************

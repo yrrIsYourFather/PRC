@@ -4,7 +4,7 @@ import einops
 from tqdm import tqdm, trange
 import statsmodels.api as sm
 import numpy as np
-from model.PRL import PRL_Net
+from model.PRC import PRL_Net
 
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

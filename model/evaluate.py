@@ -1,5 +1,5 @@
 #from model_onelinear import MyNet
-from model.PRL import PRL_Net
+from model.PRC import PRL_Net
 from data.dataset import generator_t
 from torch.utils.data import DataLoader
 import einops
